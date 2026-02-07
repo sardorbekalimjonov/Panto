@@ -67,7 +67,7 @@ body {
 
 .p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 160%;
   letter-spacing: 0%;
   text-align: center;
@@ -81,9 +81,9 @@ body {
   border: none;
   border-radius: 42px;
   border-width: 0.86px;
-  padding-top: 8px;
-  padding-right: 8px;
-  padding-bottom: 8px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   padding-left: 20px;
   margin-bottom: 524px;
 }
@@ -99,6 +99,11 @@ body {
   font-weight: 400;
   line-height: 100%;
   letter-spacing: 0%;
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 .ul {
@@ -119,6 +124,7 @@ body {
 
 .list {
   color: #1e1e1e;
+  font-size: 20px;
 }
 
 .h1class {
@@ -369,6 +375,9 @@ footer {
   top: 118px;
   left: 633px;
   padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .a-href-text- {
@@ -377,6 +386,9 @@ footer {
   top: 118px;
   left: 633px;
   padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .a-href {
